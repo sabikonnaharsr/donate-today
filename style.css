@@ -1,36 +1,336 @@
-body{
+/* top banner start */
+
+body {
     font-family: 'Abril Fatface', cursive;
     font-family: 'Cormorant SC', serif;
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 
 }
-.container{
+
+
+.container {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color: white;
+    margin-bottom: 10%;
     
 }
-#top-banner{
+
+
+#top-banner {
     padding-top: 14px;
 }
+
+
 .top-banner-img{
     width: 100%;
     height: 100%;
 }
-h1{
+
+
+h1 {
     font-size: 40px;
 }
-p{
-    margin-bottom: 2%;
-}
-.link-button{
+
+
+
+.link-button {
     text-decoration: none;
     border-radius: 6px;
     color: white;
-    background-color: FF5959;
-    padding: 10px 10px;
+    background-color: #FF5959;
+    padding: 10px 10px;   
+}
+
+/* top banner end */
+
+
+
+/* donate today start */
+
+.donate-area {
+    text-align: center;
+}
+
+
+.donate-item{
+    color: #707070;
+    margin-bottom: 8%;
+    font-weight: bolder;
     
 }
+
+
+.donate-today {
+   color: #121212;
+}
+
+
+.donate-money {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;   
+}
+
+/* .box-shadow{
+     box-shadow: 10px 10px 40px gray;
+    height: 80px;
+    width: 8%;
+    color: 707070;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    margin-left: 40px;
+    margin-right: 10px;
+   
+} */
+
+.box {
+   background-color: #FAFAFA;
+   border: none;
+   width: 6%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 10px;
+   margin: 10px;
+   font-weight: bold;
+   font-size: 25px;
+   color: 707070; 
+}
+
+
+
+#box-five {
+    border: 1px solid tomato;
+    background-color: #FFEEEE; 
+}
+
+
+hr {
+    width: 33%;
+    height: 1px;
+    color: #DADADA;
+    margin-bottom: 2%;
+}
+
+
+.other-amount {
+   margin-bottom: 0px;
+   color: #707070;
+}
+
+
+.donate-link{
+    margin-bottom: 30%;
+}
+/* donate today end */
+/* ------------------- */
+
+
+/* our donate plan start */
+.family-cards {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    padding-left: 55px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    
+}
+
+
+.plan-card-one {
+    width: 300px;
+    height: 360px;
+    color: #707070;
+    background-color: #ddf0f2;
+}
+
+
+.plan-card-two {
+    width: 300px;
+    height: 360px;
+    color: #707070;
+    background-color: #FFEEEE;
+}
+
+
+.plan-card-three {
+    width: 300px;
+    height: 360px;
+    color: #707070;
+    background-color: #FFF4D6;
+}
+
+
+h4{
+    font-size: 20px;
+    font-weight: 900px;
+    color: #121212;
+
+}
+
+.card-1{ 
+    
+    padding-left: 15px;
+    
+}
+
+
+
+.card-2 {
+    
+    padding-left: 15px;
+}
+
+
+.card-3{
+    
+    padding-left: 15px;
+   
+}
+
+.food-family-icon {
+    margin-top: 70px;
+}
+
+#shelter-icon {
+    margin-top: 70px;
+}
+
+#frame-icon {
+    margin-top: 70px;
+}
+
+
+
+/* contribute-area start */
+
+.contribute-area {
+    display: flex;
+    margin-bottom: 25%;
+    gap: 60px;
+    margin: 0 auto;
+    padding-left: 50px;
+
+}
+
+
+#help-area img {
+   width: 100%;
+   padding-left: 20px;   
+   
+}
+#child-help img {
+    width: 90%;
+    height: 475px;
+    
+}
+
+
+.need-help {
+    width: 50%;
+}
+
+
+.p-help-area {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 7%;
+
+}
+
+/* contribue area end */
+
+
+
+
+
+/* update content start */
+
+.update-content {
+    text-align: center;
+    margin-top: 10%;
+}
+ 
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4D6;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10%;
+    height: 200px;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 15px 20px;
+    margin-right: 0;
+    border-radius: 3px;
+    color: #AA9F9F;
+    background-color: #D9D9D9;
+    border: 0; 
+    font-weight: 700; 
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+.subscribe-form button {
+    padding: 15px 20px;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    border-radius: 3px;
+    margin-right: 0px;
+    border: 0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+/* update content end */
+  
+
+
+
+
+/* footer start */
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: 0B0D17;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    padding-top: 60px;
+    /* margin-bottom: 0%; */
+    padding-bottom: 30px;
+}
+
+
+.p-text {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+   
+}
+
+
+.be-humble {
+    color: FF5959;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+
+.gonna-do {
+    color: D9DBE1;
+    font-size: small;
+    margin-bottom: 30%;
+    
+}
+/* footer end */
